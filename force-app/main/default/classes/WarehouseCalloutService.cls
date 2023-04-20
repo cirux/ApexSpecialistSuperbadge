@@ -42,7 +42,7 @@ public with sharing class WarehouseCalloutService implements Queueable, Database
 
             if(equipments.size() > 0){
                 System.debug('Upserting ' + equipments.size() + ' products');
-                upsert equipments Product2.Fields.ExternalId;
+                upsert equipments;
             }
         }
 

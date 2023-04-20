@@ -74,6 +74,10 @@
 		<name>ListView</name>
 	</types>
 	<types>
+		<members>GetEquipmentResource</members>
+		<name>StaticResource</name>
+	</types>
+	<types>
 		<members>Case.UpsellCrosssellOpportunity</members>
 		<name>WebLink</name>
 	</types>
